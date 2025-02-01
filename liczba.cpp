@@ -12,15 +12,11 @@ int main()
 {
     int liczba;
     cin >> liczba;
-<<<<<<< HEAD
     if(liczba>0) {
-        cout<< liczba << endl;
+        cout<< liczba << " " << czy_bezkwadratowa(liczba) << endl;
     }
     else {
         cout << "Podano niepoprawne dane!" << endl;
     }
-=======
-    cout<< liczba << " " << czy_bezkwadratowa(liczba) << endl;
->>>>>>> obliczenia
     return 0;
 }
